@@ -1,0 +1,84 @@
+body {
+	background-image: url("C:/Users/olusegun/Pictures/Screenshot.png");
+	background-size: cover;
+	font-family: Arial, sans-serif;
+}
+
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+	color: #333;
+	font-size: 28px;
+	margin-bottom: 30px;
+}
+
+#login-container {
+	margin-top: 100px;
+}
+
+#login-form input {
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+
+#banking-container {
+	display: none;
+	margin-top: 20px;
+}
+
+#account-info > div {
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#balance {
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+#actions {
+	margin-top: 30px;
+}
+
+#actions label {
+	display: block;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+#actions input {
+	margin-bottom: 15px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #ccc
+	width: 100%;
+}
+
+#actions button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border none;
+	border-radius: 5px;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+#login-mesaage, #banking-message {
+	margin-top: 20px;
+	color: red;
+	font-size: 16px;
+}

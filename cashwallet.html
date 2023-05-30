@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CashWallet!</title>
+	<link rel="stylesheet" type="text/css" href="cashwallet.css">
+</head>
+<body>
+	<div class="container" id="login-container">
+		<h1>Sign Up to CashWallet!</h1>
+		<div id="login-form">
+			<input type="text" id="username" placeholder="Username(Surname first, then First name)">
+			<input type="password" id="password" placeholder="Password">
+			<button onclick="login()">Sign Up</button>
+		</div>
+		<div id="login-message"></div>
+	</div>
+
+	<div class="container" id="banking-container" style="display: none;">
+		<h1>Welcome to CashWallet!</h1>
+		<div id="account-info">
+			<div id="account-name">Account Name: Yinusa Peter</div>
+			<div id="account-number">Account Number: 0545523652</div>
+		</div>
+		<div id="balance">Your Balance: $0</div>
+		<div id="actions">
+			<label for="amount">Amount:</label>
+			<input type="number" id="amount" step="0.01">
+			<button onclick="deposit()">Deposit</button>
+			<button onclick="withdraw()">Withdraw</button>
+			<button onclick="transfer()">Transfer</button>
+		</div>
+		<div id="banking-message"></div>
+	</div>
+
+	<script src="cashwallet.js"></script>
+</body>
+</html>
