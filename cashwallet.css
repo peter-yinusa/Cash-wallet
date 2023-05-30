@@ -1,7 +1,7 @@
 body {
 	background-image: url("Screenshot.png");
 	background-size: cover;
-	font-family: Arial, sans-serif;
+	font-family: 'Helvetica', Arial, sans-serif;
 }
 
 .container {
